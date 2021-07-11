@@ -1,4 +1,5 @@
-use std::{self, collections::HashMap, fmt::Debug, io::Result, net::SocketAddr, time::Instant};
+use std::{self, collections::HashMap, fmt::Debug, io::Result, net::SocketAddr};
+use crate::Instant;
 
 use crossbeam_channel::{self, unbounded, Receiver, Sender};
 use log::error;

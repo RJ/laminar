@@ -46,3 +46,10 @@ mod throughput;
 
 #[cfg(test)]
 pub mod test_utils;
+
+// use wasm-compatible shim for instant, if targetting wasm
+
+#[cfg(target_arch = "wasm32")]
+pub(crate) use instant::{Instant, Duration};
+#[cfg(not(target_arch = "wasm32"))]
+pub(crate) use std::time::{Instant, Duration};

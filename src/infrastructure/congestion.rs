@@ -1,4 +1,4 @@
-use std::time::Instant;
+use crate::Instant;
 
 use crate::{
     net::{NetworkQuality, RttMeasurer},

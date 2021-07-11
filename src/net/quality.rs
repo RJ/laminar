@@ -1,4 +1,4 @@
-use std::time::Duration;
+use crate::Duration;
 
 use crate::config::Config;
 use crate::sequence_buffer::CongestionData;

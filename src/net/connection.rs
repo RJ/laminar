@@ -1,4 +1,5 @@
-use std::{self, fmt::Debug, net::SocketAddr, time::Instant};
+use std::{self, fmt::Debug, net::SocketAddr};
+use crate::Instant;
 
 use crate::config::Config;
 

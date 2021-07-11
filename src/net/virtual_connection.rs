@@ -1,6 +1,6 @@
 use std::fmt;
 use std::net::SocketAddr;
-use std::time::{Duration, Instant};
+use crate::{Duration, Instant};
 
 use crate::{
     config::Config,

@@ -3,8 +3,8 @@ use std::{
     net::SocketAddr,
     process::exit,
     thread,
-    time::{Duration, Instant},
 };
+use laminar::{Duration, Instant};
 
 use clap::{load_yaml, App, AppSettings};
 use log::{debug, error, info};
